@@ -7,7 +7,7 @@ You no longer need to push `build` button or `C-c t d` command.
 $ bundle install
 ```
 
-and write `config.yml` file.
+and edit `config.yml` file.
 
 ## Build only once
 
@@ -21,8 +21,12 @@ $ bundle exec rake
 $ bundle exec rake watch
 ```
 
-# HELP
+# Help
 
 ```
 $ rake --task
 ```
+
+# Reference
+- [Ruby - ファイルの更新を監視してTeX文書を自動ビルド - Qiita](http://qiita.com/61503891/items/1e45be2fcc3fda21088d)
+- [texをコンパイルしたりするRakefileつくった - ポクポク](http://pokutuna.hatenablog.com/entry/20110928/1317201209)
