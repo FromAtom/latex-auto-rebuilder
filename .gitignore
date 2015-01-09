@@ -1,0 +1,11 @@
+# ignore all
+*
+*/
+
+# allow any
+!Rakefile
+!Gemfile
+!Gemfile.lock
+!config.yml
+!README.md
+!.gitignore

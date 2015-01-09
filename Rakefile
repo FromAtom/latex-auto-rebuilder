@@ -48,7 +48,7 @@ end
 
 desc "Compile .bib file"
 task :bibtex do
-  if FileTest.exist?(BIBTEX)
+  if FileTest.exist?("#{PAPER}.bib")
     TermColor.blue
     print "==> "
     TermColor.reset

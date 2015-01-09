@@ -1,4 +1,4 @@
-target:   test                # 対象のtexファイルの名前
+target:   sample              # 対象のtexファイルの名前
 tex_cmd:  platex -kanji=utf8  # .texをコンパイルするコマンド
 bib_cmd:  pbibtex -kanji=utf8 # .bibをコンパイルするコマンド
 dvi_cmd:  dvipdfmx            # .dviをコンパイルするコマンド
