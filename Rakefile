@@ -78,6 +78,16 @@ task :dvipdfm do
   puts "Compile complete!"
 end
 
+desc "open PDF"
+task :open do
+  TermColor.green
+  print "==> "
+  TermColor.reset
+  puts "Open PDF file"
+
+  sh "#{OPEN} #{PAPER}.pdf"
+end
+
 desc "Start watch [.tex .bib] and regenerate PDF"
 task :watch do
   require 'watchr'
